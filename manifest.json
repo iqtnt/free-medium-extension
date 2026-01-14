@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Free Medium",
+  "description": "Open Medium articles for free using Freedium mirror",
+  "version": "1.1",
+  "permissions": ["tabs", "scripting", "activeTab"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Free Medium"
+  }
+}
