@@ -18,9 +18,8 @@ document.getElementById("freeBtn").addEventListener("click", () => {
 
         const pageSource = results[0].result;
 
-        // 🔍 التحقق من وجود medium.com في السورس
         if (!pageSource.includes("medium.com")) {
-          alert("❌ هذا الموقع غير تابع إلى Medium");
+          alert("هذا الموقع غير تابع إلى Medium");
           return;
         }
 
